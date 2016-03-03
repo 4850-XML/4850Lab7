@@ -9,7 +9,7 @@ This is the starter webapp for Lab 7
 Team Members
 ************
 Khang Tran - Acknowledged  
-Mark Batin 
+Mark Batin - Acknowledged
 
 ******************
 Coding Conventions
