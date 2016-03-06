@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule SYSTEM "classSchedule.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<schedule>
+    <semester>4</semester>
+    <source>
+        <course>
+            <day>Tuesday</day>
+            <time>10:30-12:20</time>
+            
+            
+        </course>
+    </source>    
+    <source>
+        <course>
+            <day>Tuesday</day>
+            <time>12:30-13:20</time>
+            
+            
+        </course>
+    </source>   
+    <source>
+        <course>
+            <day>Tuesday</day>
+            <time>13:30-15:20</time>
+            
+            
+        </course>       
+    </source>
+
+    
+    
+    
+    
+</schedule>
