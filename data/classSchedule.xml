@@ -13,24 +13,30 @@ and open the template in the editor.
         <course>
             <day>Tuesday</day>
             <time>10:30-12:20</time>
-            
-            
+            <courseID></courseID>
+            <className></className>
+            <classLocation></classLocation>
+            <classActivity></classActivity>           
         </course>
     </source>    
     <source>
         <course>
             <day>Tuesday</day>
             <time>12:30-13:20</time>
-            
-            
+            <courseID></courseID>
+            <className></className>
+            <classLocation></classLocation>
+            <classActivity></classActivity>           
         </course>
     </source>   
     <source>
         <course>
             <day>Tuesday</day>
             <time>13:30-15:20</time>
-            
-            
+            <courseID></courseID>
+            <className></className>
+            <classLocation></classLocation>
+            <classActivity></classActivity>           
         </course>       
     </source>
 
