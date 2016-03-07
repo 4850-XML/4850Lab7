@@ -30,7 +30,7 @@
                     <courseID></courseID>
                     <className></className>
                     <classLocation></classLocation>
-                    <classActivity activity="tutorial"></classActivity>
+                    <classActivity activity="lecture"></classActivity>
                 </course>
             </timeslot>
         </daySchedule>  
@@ -42,7 +42,7 @@
                     <courseID></courseID>
                     <className></className>
                     <classLocation></classLocation>
-                    <classActivity activity="tutorial"></classActivity>
+                    <classActivity activity="lecture"></classActivity>
                 </course>
             </timeslot>
         </daySchedule>  
