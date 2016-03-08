@@ -13,36 +13,37 @@
     <semester>Winter 2016 Semester: Week of March 21, 2016</semester>
     <days> 
         <daySchedule day ="Monday"> 
-            <timeslot start = "1:30" finish="3:20">
+            <timeslot>
+                <time ></time>
                 <course>
                     <courseID></courseID>
                     <className></className>
                     <classLocation></classLocation>
-                    <classActivity activity="tutorial"></classActivity>
+                    <classActivity></classActivity>
                 </course>
             </timeslot>
         </daySchedule>  
     </days>
         <days> 
         <daySchedule day ="Monday"> 
-            <timeslot start = "3:30" finish="4:20">
+            <timeslot>
                 <course>
                     <courseID></courseID>
                     <className></className>
                     <classLocation></classLocation>
-                    <classActivity activity="lecture"></classActivity>
+                    <classActivity></classActivity>
                 </course>
             </timeslot>
         </daySchedule>  
     </days>
         <days> 
         <daySchedule day ="Monday"> 
-            <timeslot start = "4:30" finish="5:30">
+            <timeslot>
                 <course>
                     <courseID></courseID>
                     <className></className>
                     <classLocation></classLocation>
-                    <classActivity activity="lecture"></classActivity>
+                    <classActivity></classActivity>
                 </course>
             </timeslot>
         </daySchedule>  
