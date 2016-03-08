@@ -8,8 +8,9 @@ This is the starter webapp for Lab 7
 ************
 Team Members
 ************
-Khang Tran  
+Khang Tran - Acknowledged  
 Mark Batin 
+Johnny Kang
 
 ******************
 Coding Conventions
