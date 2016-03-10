@@ -17,28 +17,22 @@ each of which models data from a specific course.
 
 <!-- The days element contains a daySchedule child element (1 or more) -->
 <!ELEMENT days (daySchedule+)>
-
-<!-- The timeslots element contains all the course timeslots of the week -->
-<!ELEMENT timeslots (timeslot+)>
-
-<!-- The courses element contains all the courses that we are enrolled in -->
-<!ELEMENT courses (course+)>
-
-
 <!-- The daySchedule element contains a daySchedule child element (1 or more) -->
-<!ELEMENT daySchedule (timeslot*)>
+<!ELEMENT daySchedule (timeslot*|course)>
 <!ATTLIST daySchedule
     day (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED
 >
 
-<!ELEMENT timeslot (time, course)>
-
-<!ELEMENT time (#PCDATA)>
-<!ATTLIST time
-    start CDATA #IMPLIED 
-    finish CDATA #IMPLIED 
+<!-- The timeslots element contains all the course timeslots of the week -->
+<!ELEMENT timeslots (timeslot+)>
+<!ELEMENT timeslot (daySchedule|course)>
+<!ATTLIST timeslot
+    start CDATA #REQUIRED
+    finish CDATA #REQUIRED 
 >
 
+<!-- The courses element contains all the courses that we are enrolled in -->
+<!ELEMENT courses (course+)>
 <!-- The course element contains a courseID, className, and classLocation
 elements
 -->
