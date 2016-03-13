@@ -37,6 +37,10 @@ each of which models data from a specific course.
 <!ATTLIST day
     daySchedule (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED
 >
+<!ATTLIST classActivity
+    activity (lab|lecture|tutorial) #IMPLIED
+>
+
 
 <!-- Root courses element for courses facet.-->  
 <!ELEMENT courses (course)*>
