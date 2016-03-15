@@ -46,13 +46,3 @@ each of which models data from a specific course.
 <!ATTLIST course
     courseID (4620|4650|4660|4770|4850|4910) #IMPLIED
 >
-
-
-
-
-
-
-
-
- 
-
