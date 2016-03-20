@@ -33,4 +33,3 @@
         <booking day="Friday" startTime="8:30" endTime="10:20" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
     </day>
 </days>
-

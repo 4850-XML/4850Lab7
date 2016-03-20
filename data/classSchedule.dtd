@@ -37,10 +37,6 @@ each of which models data from a specific course.
 <!ATTLIST day
     daySchedule (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED
 >
-<!ATTLIST classActivity
-    activity (lab|lecture|tutorial) #IMPLIED
->
-
 
 <!-- Root courses element for courses facet.-->  
 <!ELEMENT courses (course)*>
@@ -50,13 +46,3 @@ each of which models data from a specific course.
 <!ATTLIST course
     courseID (4620|4650|4660|4770|4850|4910) #IMPLIED
 >
-
-
-
-
-
-
-
-
- 
-
